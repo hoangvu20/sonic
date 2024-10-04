@@ -1,0 +1,19 @@
+- cài ví bacpack, cài RPC cutom
+http://devnet.sonic.game
+
+- lệnh khởi tạo: npm install
+
+- lệnh chạy tx: node index.js
+điền các thông số như sau khi nhấn chạy:
+Select input method (0 for seed phrase, 1 for private key): 1
+How many random addresses do you want to generate? (default is 100): 101
+Minimum balance required for rent exemption: 0.00089088 SOL
+Enter the amount of SOL to send (default is 0.001 SOL): 0.0011
+Enter the delay between transactions in milliseconds (default is 1000ms): 1000
+
+- lệnh claim: node claim.js
+(đối vối claim box nhấn 1) ; khuyến khích claim tay, tool hay lỗi
+đối với mở bot nhấn 2
+checkin nhấn 3
+
+Lưu ý: cần faucet sol testnet trước khi chạy: https://faucet.sonic.game/#/
